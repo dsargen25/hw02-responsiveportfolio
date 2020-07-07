@@ -1,0 +1,38 @@
+/* Mobile Site */
+
+.navbar{
+  text-align: right !important;
+}
+
+.col{
+  padding: 1em;
+}
+
+.cardgroup{
+  padding: 0 1em;
+}
+
+section{
+  padding: 1em 0;
+}
+
+.profileimg{
+  width: 300px;
+  height: 300px;
+  padding: 1em;
+  float: right;
+}
+
+/* Desktop Site */
+@media only screen and (min-width: 1200px){
+
+  main{
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .cardgroup{
+    padding: none;
+  }
+
+}
