@@ -24,6 +24,18 @@ section{
   float: right;
 }
 
+footer{
+  margin: auto;
+  clear: both;
+}
+
+.socialmediaicons{
+  display: block;
+  margin-right: 0;
+  padding: 10px;
+
+}
+
 /* Desktop Site */
 @media only screen and (min-width: 1200px){
 
